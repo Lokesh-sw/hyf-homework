@@ -13,20 +13,16 @@ body{
 header{
     display: flex;
     color:black;
+    text-align: center;
     background:rgb(187, 187, 167);
     line-height: 12px;
 }
 
 
-.head{
-    padding: 40px 0 0 80px;
-   
-}
 
 
-h1{
-    font-size: 30px;
-}
+
+
 
 
 .info{
