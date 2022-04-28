@@ -11,8 +11,8 @@ body{
 
 
 header{
-    
-    
+    display: flex;
+    box-sizing: content-box;
     color:black;
     width: auto;
     background:rgb(187, 187, 167);
