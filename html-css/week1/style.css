@@ -43,7 +43,7 @@ h1{
 
 
 .link{
-    display:block;
+    display:flexbox;
     width: 25%;
     font-size: 20px;
     margin-left: 15px;
@@ -103,6 +103,7 @@ h1{
 }
 
 footer{
+    display: flexbox;
     text-align: center;
     margin-top: 0;
     padding:2px;
