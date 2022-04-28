@@ -30,8 +30,9 @@ h1{
 
 
 .info{
-    display:block;
-    width: 75%;
+    display:flexbox;
+    box-sizing: content-box;
+    width: fit-content;
     float: right;
     background: beige;
 }
@@ -44,7 +45,8 @@ h1{
 
 .link{
     display:flexbox;
-    width: 25%;
+    box-sizing: content-box;
+    width: fit-content;
     font-size: 20px;
     margin-left: 15px;
     padding-left: 15px;
@@ -104,6 +106,7 @@ h1{
 
 footer{
     display: flexbox;
+    box-sizing: content-box;
     text-align: center;
     margin-top: 0;
     padding:2px;
