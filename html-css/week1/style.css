@@ -12,7 +12,6 @@ body{
 
 header{
     display: flex;
-    text-align: center;
     color:black;
     background:rgb(187, 187, 167);
     line-height: 12px;
@@ -45,11 +44,10 @@ h1{
 
 .link{
     display:block;
-    text-align: justify;
     width: 25%;
     font-size: 20px;
     margin-left: 15px;
-    padding-left: 35px;
+    padding-left: 15px;
     line-height: 2em;
 }
 
@@ -106,7 +104,6 @@ h1{
 
 footer{
     text-align: center;
-    width: 100%;
     margin-top: 0;
     padding:2px;
     height:auto;
