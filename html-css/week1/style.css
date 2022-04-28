@@ -13,6 +13,7 @@ body{
 header{
     display: flex;
     color:black;
+    width: auto;
     background:rgb(187, 187, 167);
     line-height: 12px;
 }
