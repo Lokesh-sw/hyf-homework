@@ -19,34 +19,30 @@ header{
 
 
 .head{
-    padding: 40px 0 0 100px;
-    margin-left: 50px;
+    padding: 20px 0 0 80px;
+   
 }
 
 
-h1{
-    font-size: 50px;
-}
+
 
 
 .info{
     display:flexbox;
     box-sizing: content-box;
-    width: 75%;
+    width: fit-content;
     float: right;
     background: beige;
 }
 
 
-.info-text{
-    margin-left: 10px;
-}
+
 
 
 .link{
     display:flexbox;
     box-sizing: content-box;
-    width: 25%;
+    width: fit-content;
     font-size: 20px;
     margin-left: 15px;
     padding-left: 15px;
@@ -68,8 +64,7 @@ h1{
 
 .side-list{
     color:antiquewhite;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 20px;  
 }
 
 
@@ -108,7 +103,6 @@ footer{
     display: flexbox;
     box-sizing: content-box;
     text-align: center;
-    margin-top: 0;
     padding:2px;
     height:auto;
     background-color: rgb(187, 187, 167);
@@ -118,8 +112,6 @@ footer{
 .fa{
     padding: 20px;
     font-size: 2em;
-    width: 40px;
-    text-decoration: none;
     margin: 5px 80px;
 }
 
