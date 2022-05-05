@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive-week2-homewrok</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  
+  <header>
+    <div class="head-content">
+      <h1>web developement as an industry</h1>
+      <p>an article about web developement</p>
+    </div>
+  </header>
+
+  <!--gave navigation links through ID selector in two of the menu items for showing function-->
+
+  <nav class="nav-bar">
+    <div class="menu">
+      <a>home</a>
+      <a href="#about">about</a>
+      <a>our services</a>
+      <a href="#find-us">our office</a>
+    </div>
+  </nav>
+
+  
+  
+  <!--in main image provided width and height here in html and not given any style in css-->
+
+  <figure>
+    <img class="main-image" src="logos/office.jpg" width="100%" height="400px" alt="picture of an office" />
+  </figure>
+
+  
+  
+  <!--Devided main into 2 containers to hold another 2 container each. class given mentioning section number-->
+  
+  <main>
+    <div class="main">
+      <div class="main-section1">
+        
+        <div>
+          <h4>web developement as an industry</h4>
+          <p class="para-type2">examples of dramatic transformation in communiations<br>
+            and commerce led by web developement include e-com-<br>
+            merce.online auction sites such as eBay have changed<br>
+            the way consumers find and purchase goods and servic-<br>
+            es.online retailers such as Amazon.com and Buy.com<br>
+            (among many others) have transformed the shopping<br>
+            and bargain-hunting experience for many consumers.
+          </p>
+        </div>
+
+        <div>
+          <h2>practical web developement</h2>
+          <p class="para-type1">since the commercialization of the web, web developement has been a growing<br>
+            industry. the growth of this industry is being driven by the business wishing to use<br>
+            their website to sell products and services to customers.[1]
+          </p>
+        
+          <p class="para-type1">there is open source software for web developement like BerkeleyDB, Glassfish,<br>
+            LAMP(Linux, Apache, MySQL, PHP) stack and Pearl/Plack. this has kept the cost of<br>
+            learning web developement to a minimum. another contributing factor to the<br>
+            growth of the industry has been the rise of easy-to-use WYSIWYG web-develop-<br>
+            ment software such as Adobe Dreamweaver, Blue Griffen and Microsoft Visual<br>
+            studio. knowledge of hypertext markup language (HTML) or of programming<br>
+            languages is still required to use such software, but the basis can be learned and<br>
+            implemented quickly with the help of help files, technical bboks, internet tutorials<br>
+            or face-to-face training.
+          </p>
+        
+          <p class="para-type1">an ever-growing set of tools and technologies have helped developers build more<br>
+            dynamic and interactive websites. further, web developers now help to deliver<br>
+            applications as web services which were traditionally only available as applica-<br>
+            tions on a desk-based computer. this has allowed many oppurtunities to de-<br>
+            centralize information and media distribution. examples can be seen with the rise<br>
+            of cloud services such as Adobe Creative Cloud, Dropbox and Google Docs. these<br>
+            web services allow users to interact with applications from many locations,<br>
+            instead of being tied to a specific workstation for their application environment.
+          </p>
+        </div>
+      </div>
+
+
+      <!--class main-section2 holds all the imgaes for logos -->
+
+
+      <div class="main-section2">
+        <div>
+          <h4>the gallery</h4>
+          <p class="para-type2">images to the right should be added as links. each image<br>
+            should be responsive.
+          </p>
+        </div>
+        
+        <div>
+          <h2>logotypes on the web</h2>
+          <div  class="logo">
+              <a href="https://www.tutorialspoint.com/html5/index.htm"><img src="logos/icon5.png" width="90px" height="auto" alt="image for html5 logo"/></a>
+              
+              <a href="https://nodejs.org/en/"><img src="logos/icon6.png" width="90px" height="auto" alt="image for nodejs logo"/></a>
+              
+              <a href="https://www.mozilla.org/da/firefox/new/"><img src="logos/icon7.png" width="90px" height="auto" alt="image for firefox logo"/></a>
+              
+              <a href="https://www.hackyourfuture.net/"><img src="logos/icon8.png" width="90px" height="auto" alt="image for slack logo"/></a>
+              
+              <a href="https://mailchimp.com/"><img src="logos/icon9.png" width="90px" height="auto" alt="image for mailchimp logo"/></a>
+              
+              <a href="https://www.opera.com/gx?utm_content=2232_DK&utm_medium=pa&utm_campaign=PWN_DK&utm_id=ef31bacee73e42c89c11a39418909f52&utm_source=PWNgames&edition=std-1"><img src="logos/icon10.png" width="90px" height="auto" alt="image for opera logo"/></a>
+              
+              <a href="https://www.xbox.com/en-US/"><img src="logos/icon11.png" width="90px" height="auto" alt="image of xbox logo"/></a>
+              
+              <a href="https://www.debian.org/"><img src="logos/icon12.png" width="90px" height="auto" alt="image for debian logo"/></a>
+              
+              <a href="https://rss.com/"><img src="logos/icon1.png" width="90px" height="auto" alt="image for rss logo"/></a>
+              
+              <a href="https://github.com/HackYourFuture"><img src="logos/icon2.png" width="90px" height="auto" alt="image of github logo"/></a>
+              
+              <a href="https://jquery.com/"><img src="logos/icon3.png" width="90px" height="auto" alt="image for jquery logo"/></a>
+              
+              <a href="https://buffer.com/"><img src="logos/icon4.png" width="90px" height="auto" alt="image for buffer logo"/></a>
+          </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+
+    <!-- in this first div in footer, map cordinates and address are mentioned-->
+
+    <div>
+      <h4 id="find-us">find us</h4>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.558385096954!2d12.538587315386854!3d55.66188960646824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652539aed46bb31%3A0x352c940085c22f73!2sDanish%20Institute%20for%20Sustainable%20Innovation%20%26%20Entrepreneurship)!5e0!3m2!1sda!2sdk!4v1651610502376!5m2!1sda!2sdk"
+        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" alt="google map ">
+      </iframe>
+
+      <p>Hack Your Future<br>
+         Copenhagen<br>
+         M-Th: 7am - 4pm<br>
+         Fri-Sat: 9am - 8pm
+      </p>
+    </div>
+
+    
+    <!--in this container an id has created to give link in navigation menu-->
+
+
+    <div>
+      <h4 id="about">about this page</h4>
+      <p>This is the footer of the<br>
+      page of homework O2
+      </p>
+    </div>
+
+    <div>
+      <h4>archives</h4>
+      <ul>
+        <li> March 2016</li>
+        <li>February 2016</li>
+        <li>January 2016</li>
+      </ul>
+    </div>
+
+
+    <!--here links are created and linked to different hyf webpage segments -->
+    <div>
+      <h4>navigation</h4>
+      <ul>
+        <li><a class="foot-menu" href="https://www.hackyourfuture.net/">Home</a></li>
+        <li><a class="foot-menu" href="https://www.hackyourfuture.net/about/">About</a></li>
+        <li><a class="foot-menu" href="https://www.hackyourfuture.net/behindthesource/">History</a></li>
+        <li><a class="foot-menu" href="https://www.hackyourfuture.net/contact/">Contact</a></li>
+        <li><a class="foot-menu" href="https://blog.hackyourfuture.net/">Blog</a></li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+</html>
