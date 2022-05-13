@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form1.css">
+    <title>week-3-form-homework</title>
+</head>
+<body>
+
+    <!--used placeholder image as to represent logo as shown in homework instructions-->
+
+    <header class="head">
+        <div>
+            <img src="https://via.placeholder.com/150" alt="plceholder image to replace logo">
+        </div>
+
+        <div class="nav">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Offers</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <!--used main to write information and divided it into heading and paragraphs-->
+
+    <main>
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <p>We can't wait to help you improve your life-style and gain the attention from people around<br>
+           you!
+        </p>
+
+        <br>
+        <br>
+
+        <p>Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy<br>
+           picking the best offers that match your preferences and style. Every week we will send you a<br>
+           hand-picked selection - we just need to know a few details about your first....
+        </p>
+    </main>
+
+    <section>
+        <form>
+
+            <!-- created progress bar through this container-->
+
+
+            <h3>Progress</h3>
+            <div class="progress-bar1">
+                <div class="in">
+                    <span class="progress-bar-fill"></span>
+                </div>
+            </div>
+
+            <br>
+            <p>Nice to meet you. Let's spend a minute to get to know each other? Please enter the following:</p>
+            <br>
+
+            <!--this container holding first and last name tab-->
+
+        <div class="name-tab">
+            <div>
+                <label for="fname">First name*</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+
+            <div>
+                <label for="lname">Last name*</label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+        </div>
+
+        <!--created country selection tab through select and option tag-->
+
+        <div class="country-tab">
+            <label for="country">Country*</label>
+            <select id="country" name="country-name" form="country-form" size="1" required>
+                <option >Denmark</option>
+                <option>India</option>
+                <option>Sweden</option>
+                <option>Germany</option>
+                <option>Norway</option>
+            </select>
+        </div>
+
+        <!--this container holds address and postcode tabs-->
+
+        <div class="address">
+            <div>
+                <label for="saddress">Street address*</label>
+                <input type="text" name="saddress" id="saddress">
+            </div>
+            <div class="post">
+                <label for="postcode">Postcode*</label>
+                <input type="text" name="postcode" id="postcode" maxlength="4">
+            </div>
+        </div>
+
+        <!--this container to create text area -->
+
+        <div class="text-area">
+            <div>
+                <label for="textarea">Profile description</label>
+                <br>
+                <p>please provide a short<br>
+                    description of yourself to be<br>
+                    displayed on our social<br>
+                    community pages
+                </p>
+            </div>
+
+            <div class="text-box">
+                <textarea name="textarea" id="textarea" cols="145" rows="10" maxlength="500"></textarea>
+            </div>
+        </div>
+
+        <p>Use the same address for billing and shipping?Uncheck below to fill out a seperate billing address.</p>
+        <br>
+
+        
+        <!--check box and alternate shipping address-->
+
+
+        <div>
+            <label for="ship-address">Shipping address</label>
+            <input type="checkbox" name="ship-address" id="ship-address" checked>
+
+            <div class="second">
+                <div class="name-tab">
+                    <div>
+                        <label for="fname">First name*</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name*</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                </div>
+                
+                <div class="country-tab">
+                    <label for="country">Country*</label>
+                    <select id="country" name="country-name" form="country-form" required>
+                        <option>Denmark</option>
+                        <option>India</option>
+                        <option>Sweden</option>
+                        <option>Germany</option>
+                        <option>Norway</option>
+                    </select>
+                </div>
+                
+                <div class="address">
+                    <div>
+                        <label for="saddress">Street address*</label>
+                        <input type="text" name="saddress" id="saddress">
+                    </div>
+                    <div class="post">
+                        <label for="postcode">Postcode*</label>
+                        <input type="text" name="postcode" id="postcode" maxlength="4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--give links to next page in anchor tag -->
+        
+        
+        <div class="button">
+            <a href="form2.html"><input type="button" value="Next step" /></a>
+        </div>
+
+        </form>
+    </section>
+</body>
+</html>

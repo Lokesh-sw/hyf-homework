@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>week-3-form-homework</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+
+    <!--used placeholder image to represent logo-->
+
+
+    <header class="head">
+        <div>
+            <img src="https://via.placeholder.com/100" alt="plceholder image to replace logo">
+        </div>
+    
+        <div class="nav">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Offers</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <!--main contain h1 and h2-->
+
+    <main>
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <h2>Step 2/4 - how can we reach you?</h2>
+    </main>
+
+    <section>
+        <form action="" method="get">
+
+            <!--container to create progress bar-->
+
+
+            <h3>Progress</h3>
+            <div class="progress-bar1">
+                <div class="in">
+                    <span class="progress-bar-fill"></span>
+                </div>
+            </div>
+            
+            <br>
+            <p>We will probably need to stay in touch somehow. Let us know how we can reach you?</p>
+            <br>
+
+            <!--different segments of form for user enter information-->
+
+            <div class="contact">
+                <div>
+                    <label for="e-mail">Email*</label>
+                    <input type="email" name="e-mail" id="e-mail" required>
+                </div>
+            
+                <div class="phone">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+            </div>
+
+            <div class="pass">
+                <label for="pass-word">Password*</label>
+                <input type="password" name="pass-word" id="pass-word" pattern=".{10} ([a-z]) ([A-Z])" required>
+            </div>
+
+            <div class="re-pass">
+                <label for="re-pass">Re-enter Password*</label>
+                <input type="password" name="password" id="re-pass" pattern=".{10} ([a-z]) ([A-Z])" required>
+            </div>
+
+            <p>I want to sign up for newsletter</p>
+
+            <div class="radio-tab">
+                <div class="news1">
+                    <label for="weekly">Weekly news</label>
+                    <input type="radio" name="news" id="weekly" checked>
+                </div>
+
+                <div class="news2">
+                    <label for="monthly">Monthly news</label>
+                    <input type="radio" name="news" id="monthly">
+                </div>
+
+                <div class="news3">
+                    <label for="no-news">Weekly news</label>
+                    <input type="radio" name="news" id="no-news">
+                </div>
+            </div>
+
+            <!--button created with anchor tag to link next html file in the project-->
+
+            <div class="button">
+                <a href="form3.html"><input type="button" value="Next step" /></a>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week-3-form-homework</title>
+    <link rel="stylesheet" href="form4.css">
+</head>
+<body>
+    <!--used placeholder image as to represent logo as shown in homework instructions-->
+    
+    <header class="head">
+        <div>
+            <img src="https://via.placeholder.com/150" alt="plceholder image to replace logo">
+        </div>
+    
+        <div class="nav">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Offers</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <h2>Step 4/4 - Payment</h2>
+    </main>
+
+    <section>
+        <form action="" method="get">
+            <fieldset>
+
+                <!--container to create progress bar-->
+
+                <h3>Progress</h3>
+                <div class="progress-bar1">
+                    <div class="in">
+                        <span class="progress-bar-fill"></span>
+                    </div>
+                </div>
+
+                <!--inputs for user entered information-->
+
+                <div class="name">
+                    <label for="name">Name on card</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                
+                <div class="cardtype">
+                    <label for="cardtype">Card type</label>
+                    <select name="cardtype" id="cardtype" required>
+                        <option>Dankort</option>
+                        <option>Mastercard</option>
+                        <option>Visa</option>
+                    </select>
+                </div>
+                
+                <div class="card-number">
+                    <label for="card-number">Credit card number</label>
+                    <input type="tel" name="card-number" id="card-number" pattern="[0-9]{4},[0-9]{4},[0-9]{4},[0-9]{4}"
+                        placeholder="xxxx xxxx xxxx xxxx" required>
+                </div>
+                
+                <div class="expiry">
+                    <label for="expiry">Expiry month</label>
+                    <input type="month" name="expiry" id="expiry" required>
+                </div>
+                
+                <div class="cvv">
+                    <label for="cvv">CVV</label>
+                    <input type="password" inputmode="numeric" name="cvv" id="cvv" maxlength="3" placeholder="3 digit Security number" required>
+                </div>
+                
+                <!--button with anchor tag to give link back to first page-->
+                
+                <div class="button">
+                    <a href="index.html"><input type="button" value="Next step" /></a>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+</html>
