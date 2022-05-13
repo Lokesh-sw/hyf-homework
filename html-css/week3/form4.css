@@ -158,6 +158,7 @@ fieldset {
     .head {
         flex-direction: column;
         padding: 1em 0em 0em 2em;
+        border-bottom: 1px solid rgb(224, 39, 39);
     }
 
     .nav {
@@ -188,21 +189,21 @@ fieldset {
         width: 90%;
     }
 
-        .cardtype {
-            margin: 1em 0 1em 3em;
-        }
+    .cardtype {
+        margin: 1em 0 1em 3em;
+    }
     
-        .expiry {
-            margin: 1em 0 1em 3em;
-        }
+    .expiry {
+        margin: 1em 0 1em 3em;
+    }
 
-        .card-number {
-            margin: 0 0 0 3em;
-        }
+    .card-number {
+        margin: 0 0 0 3em;
+    }
     
-        .cvv {
-            margin: 2em 0 1em 0.5em;
-        }
+    .cvv {
+        margin: 2em 0 1em 0.5em;
+    }
 
     .button {
         display: flex;
@@ -229,7 +230,6 @@ fieldset {
     main {
         padding-top: 0.3em;
     }
-
 
     .name {
         margin: 3em 0 1em 3em;

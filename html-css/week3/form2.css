@@ -150,11 +150,12 @@ input {
 /*styling to fit in for smaller screens*/
 
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:500px) {
 
     .head {
         flex-direction: column;
         padding: 1em 0em 0em 2em;
+        border-bottom: 1px solid rgb(224, 39, 39);
     }
 
     .nav {
@@ -226,6 +227,10 @@ input {
         border-bottom: 1px solid rgb(224, 39, 39);
         flex-direction: row;
     }
+
+    .nav {
+        margin: 0;
+    }
     
     .menu {
         flex-direction: column;
@@ -236,6 +241,12 @@ input {
     main {
         padding-top: 0.3em;
     }
+
+        .contact {
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 1em 1em;
+        }
     
     .phone {
         margin-top: 3em;
@@ -244,11 +255,10 @@ input {
     .pass {
         display: flex;
         flex-direction: column;
-        margin-left: 4em;
     }
 
     .re-pass {
-        margin-left: 4em;
+        margin-left: 5em;
     }
 
     .button {
@@ -256,15 +266,12 @@ input {
     }
 
     .radio-tab {
+        flex-direction: column;
         margin-top: 1em;
     }
 
-    .news1 {
-        padding-left: 0.5em;
-    }
-    
     .news3 {
-        padding-left: 0.6em;
+        padding-left: 0.1em;
     }
     }
 
