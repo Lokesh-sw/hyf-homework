@@ -7,6 +7,8 @@ function getFullname(
 ) {
   if (useFormalName === true) {
     return `Lord ${firstname} ${surname}`;
+  } else if (firstname === "" || surname === "") {
+    return "Please enter your name";
   } else {
     return `${firstname} ${surname}`;
   }
@@ -28,7 +30,9 @@ console.log(getFullname("Benjamin", "Hughes", false));
 
 // calling function without argument or empty string
 
+console.log(getFullname(""));
 console.log(getFullname());
 
-/* in  case of a women maybe create one more parameter which confirms gender in form input and based of man or woman
-can give another condition which selects value of parameter*/
+/* in  case of a women maybe create one more parameter to getFullname which 
+confirms gender in form input and based of man or woman
+can give another condition  to select lady or Madam as value */
