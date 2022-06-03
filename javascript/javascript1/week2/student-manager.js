@@ -9,7 +9,7 @@ function addStudentToClass(studentName) {
   } else if (class07Students.length >= 6) {
     alert('"Cannot add more students to class 07"');
   } else {
-    return class07Students.push(studentName);
+    class07Students.push(studentName);
   }
 }
 
