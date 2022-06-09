@@ -49,9 +49,9 @@ function eraseNote(id) {
     for (let i = 0; i < note.length; i++) {
       if (id === note[i].id) {
         note.splice(id - 1, 1);
+        console.log(note);
       }
     }
   }
 }
 eraseNote(1);
-console.log(note);
