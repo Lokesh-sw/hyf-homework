@@ -1,10 +1,16 @@
 const note = [];
 
+// fuction to push notes in array
+
 function saveNote(content, id) {
-  note.push({ content, id });
+  if (typeof content !== "string" && typeof id !== Number) {
+    return "Please enter a valid note type";
+  } else {
+    note.push({ content, id });
+  }
 }
 
-// adding notes
+// adding notes to array
 
 saveNote("Pick up groceries", 1);
 saveNote("Do laundry", 2);
