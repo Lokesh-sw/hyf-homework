@@ -11,7 +11,7 @@ const names = [
 const nameToRemove = "Ahmad";
 
 // Write some code here
-console.log(names.indexOf(nameToRemove, 0)); // found index number for "Ahmed"
+console.log(names.indexOf(nameToRemove)); // found index number for "Ahmed"
 
 names.splice(1, 1); // used splice to remove element and reduced array length.
 
