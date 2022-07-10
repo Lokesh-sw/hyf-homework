@@ -14,7 +14,7 @@ console.log(longMovieTitle);
 
 const movieYear = movies.filter(
   (year) => year.year >= 1980 && year.year <= 1989
-);
+).length;
 console.log(movieYear);
 
 //Create a new array that has an extra key called tag. The tag is based on the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4)
