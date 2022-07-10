@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #56585a;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.game {
+  border: 3px white double;
+  box-sizing: border-box;
+  margin: 0 20em;
+  background-color: #062d46;
+}
+
+h1 {
+  font-family: "Shizuru", cursive;
+  font-size: 3.25em;
+  margin-bottom: 50px;
+}
+.confettis {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+}
+
+canvas {
+  height: 400px;
+  width: 800px;
+}
+
+input {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1a587f;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1a587f;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: yellow;
+  box-shadow: 0px 15px 20px rgba(255, 239, 14, 0.4);
+  color: #1a587f;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.tab {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player {
+  width: 20%;
+  padding: 50px 50px;
+  margin: 5em 5em;
+  background-color: rgba(240, 248, 255, 0.75);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #1a587f;
+  font-weight: bold;
+}
