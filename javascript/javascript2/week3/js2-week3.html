@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="js2-week3.css" />
+    <title>js2-week3</title>
+  </head>
+  <body>
+    <h1 id="heading"></h1>
+    <button id="firstbutton">click me</button><br />
+    <br />
+    <button id="location">Log Locations</button>
+    <p class="locLog"></p>
+    <div id="map"></div>
+
+    <div class="game">
+      <h1>Fastest Presser!</h1>
+
+      <div>
+        <input type="number" id="inputTime" placeholder="No. of seconds" />
+        <input type="text" id="playerOne" placeholder="Player 1 Name" />
+        <input type="text" id="playerTwo" placeholder="Player 2 Name" />
+      </div>
+
+      <div>
+        <p id="alerts"></p>
+      </div>
+
+      <div class="buttons">
+        <button onclick="start()">Start</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+
+      <div class="confettis">
+        <canvas id="canvasS"></canvas>
+        <canvas id="canvasL"> </canvas>
+      </div>
+      <div class="tab">
+        <div class="player">
+          <p class="nameOne">Player One</p>
+          <p>Press 'S'</p>
+          <p id="displayS"></p>
+        </div>
+        <div class="player">
+          <p class="nameTwo">Player Two</p>
+          <p>Press 'L'</p>
+          <p id="displayL"></p>
+        </div>
+      </div>
+      <div id="leaderboard">
+        <p>LEADERBOARD</p>
+      </div>
+      <div>
+        <ul id="leaderboardScores"></ul>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
+    <script src="function-variable.js"></script>
+    <script src="js2-week3.js"></script>
+    <script src="fast-presser.js"></script>
+  </body>
+</html>
