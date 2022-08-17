@@ -1,5 +1,3 @@
-
-
 CREATE DATABASE IF NOT EXISTS ´week1_database´;
 
 USE ´week1_database´;
