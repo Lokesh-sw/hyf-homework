@@ -9,7 +9,8 @@ FROM task WHERE `due_date` IS NULL;
 -- Find all the tasks that are marked as done
 SELECT *
 FROM task
-JOIN status ON task.status_id = status.id
+JOIN status ON 
+task.status_id = status.id
 WHERE status.name LIKE "Done"; 
 
 -- Find all the tasks that are not marked as done
