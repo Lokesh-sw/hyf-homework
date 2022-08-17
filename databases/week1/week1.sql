@@ -3,6 +3,8 @@ SELECT COUNT(*)
 from task;
 
 -- Find out how many tasks in the task table do not have a valid due date
+
+
 SELECT count(*)
 FROM task WHERE `due_date` IS NULL;
 
