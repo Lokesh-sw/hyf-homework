@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="js3-week1.css" />
+  </head>
+
+  <body>
+    <input type="text" textholder="city name" />
+    <button class="submit">Weather Report</button>
+    <button id="currentPosition">current location</button>
+    <div class="mainContainer">
+      <p class="message"></p>
+      <p class="cityName"></p>
+      <p class="temp"></p>
+    </div>
+    <div class="container">
+      <p class="windSpeed"></p>
+      <p class="descriptionClouds"></p>
+      <p class="sunsetSunrise"></p>
+      <p class="visibility"></p>
+    </div>
+
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"
+    ></script>
+    <script src="js3-week1-weather.js"></script>
+  </body>
+</html>
