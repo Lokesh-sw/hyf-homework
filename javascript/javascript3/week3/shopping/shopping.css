@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  text-align: justify;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #9a78db;
+  text-decoration: underline;
+}
+
+ul {
+  width: 500px;
+  height: 250px;
+}
+
+ul li {
+  list-style: none;
+  color: rgb(240, 166, 29);
+}
+
+li span {
+  float: right;
+  margin-top: -50px;
+  color: lightseagreen;
+}
+
+#productsList {
+  padding: 15px;
+  border: 2px solid #9845e6;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 250px;
+}
+
+#total {
+  color: rgb(17, 17, 27);
+  font-size: 18px;
+}
