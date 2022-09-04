@@ -20,7 +20,8 @@ CREATE TABLE `book` (
     );
 
 CREATE TABLE `register` (
-    `book_id` int(10) unsigned,
+    `book_id` int(10) unsigned NOT NULL,
+    `student_id` int(10) unsigned NOT NULL
     `name` varchar(255) NOT NULL,
     `writer` varchar(255) NOT NULL,
     `date_published` int(10) NOT NULL,
