@@ -1,0 +1,8 @@
+li {
+  background-color: beige;
+}
+
+.container li span:first-child {
+  font-weight: 700;
+  background-color: rgb(172, 172, 236);
+}
