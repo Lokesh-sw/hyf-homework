@@ -13,7 +13,6 @@ h1 {
 
 ul {
   width: 500px;
-  height: 250px;
 }
 
 ul li {
@@ -33,7 +32,6 @@ li span {
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
-  margin-bottom: 250px;
 }
 
 #total {

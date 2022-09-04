@@ -45,13 +45,13 @@ class ShoppingCart {
 
   searchProduct(productName) {
     // Implement functionality here
-    let sProduct = [];
+    let shoppingProduct = [];
     this.products.forEach((product) => {
       if (product.name.toLowerCase() === productName.toLowerCase()) {
-        sProduct = product;
+        shoppingProduct = product;
       }
     });
-    return sProduct;
+    return shoppingProduct;
   }
 
   getTotal() {
@@ -75,9 +75,10 @@ class ShoppingCart {
   getUser(user) {
     // Implement functionality here
     return new Promise((resolve, reject) => {
-      fetch(`https://jsonplaceholder.typicode.com/users/${user}`)
-        .then((response) => response.json())
-        .then((data) => resolve(data));
+      (data) => resolve(data);
+      fetch(`https://jsonplaceholder.typicode.com/users/${user}`).then(
+        (response) => response.json()
+      );
     });
   }
   showcart() {
@@ -117,10 +118,6 @@ console.log(plant.getCurrency("INR"));
 
 // part 2
 
-shoppingCart.getUser(2).then((result) => {
-  console.log(result);
-
-  shoppingCart.renderProducts();
-  document.getElementById("total").innerText = `Total Price =
+shoppingCart.renderProducts();
+document.getElementById("total").innerText = `Total Price =
     ${shoppingCart.getTotal()} dkk`;
-});
