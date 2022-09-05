@@ -155,20 +155,24 @@ WHERE
     Review.stars > 3;
     
 -- Get reservations for a specific meal sorted by created_date
-SELECT
-    *
-FROM
-    `reservation`
-WHERE
-    meal_id = 1
-ORDER BY
-    created_date;
+
+SELECT 
+Meal.description, reservation.created_date 
+AS 
+reservation_Created_date
+FROM Meal
+JOIN reservation 
+ON Meal.id = reservation.meal_id
+where meal_id=3
+ORDER BY 
+reservation.created_date ASC;
 
 -- Sort all meals by average number of stars in the reviews
-SELECT
-    Meal_id, Meal.title, AVG(Review.stars) as avg_stars
-FROM
-    `Review`
-    LEFT JOIN `Meal` ON Review.Meal_id = Meal.id
-GROUP BY
-    Meal_id
+
+SELECT 
+Review.meal_id, Meal.title, Meal.description,
+Round(AVG(stars),0)
+FROM Meal
+JOIN  Review ON Meal.id=Review.meal_id
+GROUP BY Meal.id
+ORDER BY AVG(Review.stars) ASC;
